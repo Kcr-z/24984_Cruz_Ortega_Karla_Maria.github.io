@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+
+
+.encabezado {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size:155px;
+    color: #9A9DD9;
+    text-decoration: underline;
+	text-align: center;
+	padding-bottom: 25px;
+	
+	
+}
+.frase1 {
+    background-color: #986AD9;
+    border: dotted 15px #91D9BF;
+	padding: 20px;
+	padding-bottom: 20px;
+}
+
+.tipografia {
+	font-family: 'Patrick Hand', cursiva;
+	color: #FFF;
+	font-size: 42px;
+	text-align: center
+}
+
+.tipografia1 {
+	font-family: 'Shadows Into Light', cursive;
+	color: #FFF;
+	font-size: 42px;
+	text-align: center
+}
+.tipografia2 {
+	font-family: 'Handlee', cursive;
+	color: #FFF;
+	font-size: 42px;
+	text-align: center
+}
+.tipografia3 {
+	font-family: 'Indie Flower', cursive;
+	color: #FFF;
+	font-size: 42px;
+	text-align: center
+}
+.tipografia4 {
+	font-family: 'Amatic SC', cursive;
+	color: #FFF;
+	font-size: 42px;
+	text-align: center
+}
+.tipografia5 {
+	font-family: 'Patrick Hand', cursiva;
+	color: #FFF;
+	font-size: 42px;
+	text-align: center
+}
+
+.autor {
+	font-family: 'Lato', sans-serif;
+	color:#FFF;
+	font-size: 35px;
+	text-align: right
+}
+.autor2 {
+	font-family: 'Lato', sans-serif;
+	color:#FFF;
+	font-size: 35px;
+	text-align: left;
+}
+
+
+.frase2 {
+	background-color: #91D9BF;
+    border: double 15px #986AD9;
+	padding: 20px;
+	
+}
+
+.frase3 {
+	background-color: #9A9DD9;
+    border: dashed 12px #FFF;
+	padding: 20px;
+	
+}
+
+.frase4 {
+	background-color:#986AD9;
+    border:groove 20px #FFF;
+	padding: 20px;
+}
+
+.frase5 {
+	background-color: #91D9BF;
+    border: inset 12px #986AD9;
+	padding: 20px;
+	
+}
+
+.pie {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size:50;
+    color: #9A9DD9;
+	text-align: right;
+	padding-bottom: 35px;
+	padding-top: 35px;
+}

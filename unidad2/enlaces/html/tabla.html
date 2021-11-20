@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tablas</title>
+	<style type="text/css">
+		h1{color:#151723;font-size:38px}
+		h2{color:#151723;font-size:28px}
+		thead{color:#151723;font-size:24px}
+		nav{height:5px;width:1024px;padding:20px;background-color: #fabc28}
+		header,footer,main,nav {width:1024px;margin:0 auto}
+		header{;padding:20px;text-align: center;background-color: #5c5489;}
+		footer{color:#151723;padding:20px;text-align: center;background-color: #5C5489;}
+		main{background-color:#151723;padding: 20px;border:dotted 8px #fabc28}
+		section{background-color: #F9EBF2;margin:70px;padding:15px;border:double 10px #fabc28;}
+		table{border-collapse: collapse}
+		th,td {padding: 5px}
+		th{text-align: left;background-color:#fabc28; }
+		td{background-color:#5C5489 }
+		#t01 th{background-color:#ec5489;border:groove 4px #151723} 
+		#t01 td{background-color:#fabc28;border:groove 3px #151723}
+		nav  {
+    height: auto;
+	width: auto;
+    background-color: #fabc28;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 10 px;
+    margin-right: 10 px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>TABLAS EN HTML</h1>
+	</header>
+<nav>
+	<ul>
+			<li><a href="Miprimerapagina.html" target="_blank">Mi primera pagina web</a></li>
+			<li><a href= "listas.html" target="_blank">Listas</a></li>
+			<li><a href= "tabla.html" target="_blank">Tablas</a></li>
+			<li><a href= "enlaces.html" target="_blank">Enlaces</a></li>
+			<li><a href= "imagenes.html" target="_blank">Imagenes</a></li>
+			<li><a href= "audios.html" target="_blank">Audio</a></li>
+			<li><a href= "video.html" target="_blank">Video</a></li>
+			<li><a href= "animaciones.html" target="_blank">Animaciones</a></li>
+			<li><a href= "formularios.html" target="_blank">Formularios</a></li>
+			<li><a href="mediaquery.html" target="_blank">Mediaquery</a></li>
+			<li><a href="flexbox.html" target="_blank">Flexbox</a></li>
+			<li><a href="diademuertos.html" target="_blank">Día de muertos</a></li>
+				
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<h2>Tabla simple</h2>
+		  
+	<table border="1">
+		<thead>
+			<tr>
+				<th>Nombre</th>
+				<th>Email</th>
+				<th>Teléfono</th>
+		    </tr>
+	    </thead>
+		<tbody>
+			<tr>
+				<td>Karla Cruz</td>
+				<td>karma_cro@hotmail.com</td>
+				<td>2211747006</td>
+		    </tr>
+			<tr>
+				<td>Salvador Díaz</td>
+				<td>salvador.diaz@gmail.com</td>
+				<td>2234567809</td>
+		    </tr>
+			<tr>
+				<td>Brandon Sánchez</td>
+				<td>brandon_san22@outlook.com</td>
+				<td>2245789678</td>
+		    </tr>
+			<tr>
+				<td>Mariana Ponce</td>
+				<td>mar_pon@gmail.com</td>
+				<td>2255679809</td>
+		    </tr>
+			<tr>
+				<td>Jair Hernández</td>
+				<td>jair_sal34@yahoo.com</td>
+				<td>2211678945</td>
+		    </tr>
+	    </tbody>
+		<tfoot></tfoot>
+	  </table>
+		</section>
+		<section>
+		<h2>Tabla con celda que abarca dos columnas</h2>
+		<table border="1">
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th colspan="2">Teléfono</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Karla Cruz</td>
+					<td>2211747006</td>
+					<td>2234768990</td>
+				</tr>
+				<tr>
+					<td>Salvador Díaz</td>
+					<td>2211747006</td>
+					<td>2245679809</td>
+				</tr>
+				<tr>
+					<td>Brnadon Sánchez</td>
+					<td>2276568909</td>
+					<td>2266453412</td>
+				</tr>
+			</tbody>
+			<tfoot></tfoot>
+		</table>	
+		</section>
+		<section>
+			<table width="400" border="1" id="t01">
+  <tbody>
+    <tr>
+      <th scope="col">Nombre</th>
+      <th scope="col">Apellidos</th>
+      <th scope="col">Número</th>
+    </tr>
+    <tr>
+      <td>Salvador</td>
+      <td>Diaz Farias</td>
+      <td>2244567898</td>
+    </tr>
+    <tr>
+      <td>Brandon</td>
+      <td>Sánchez Torres</td>
+      <td>2256987656</td>
+    </tr>
+  </tbody>
+</table>
+		</section>
+	</main>
+	<footer>Elaborado por Karla Cruz</footer>
+</body>
+</html>
