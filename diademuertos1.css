@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+body header {
+    background-color: #2E112D;
+    color: #FFF5F5;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	margin:0px;
+   }
+nav ul li{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-family: "bebas neue";
+    text-decoration: none;
+}
+h1{
+    font-family: 'Henny Penny', cursive;
+    font-size: 50px;
+    box-sizing: content-box;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+h2   {
+    font-size: 30px;
+    font-family: 'Henny Penny', cursive;
+    color: #2E112D;
+}
+p {
+    font-family: montserrat;
+    font-weight: normal;
+    color: #F8F6F6;
+}
+.imagen1 {
+    width: 75%;
+    position: relative;
+    float: left;
+    text-align: center;
+    left: 46px;
+    top: 20px;
+    height: auto;
+}
+.section1 {
+    background-color: #F0F03A;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    box-sizing: content-box;
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video1 {
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 6px;
+    padding-left: 0px;
+    width: 90%;
+}
+h3 {
+    font-family: 'Henny Penny', cursive;
+    font-size: 30px;
+    box-sizing: content-box;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    color: #FFFFFF;
+}
+tbody tr td {
+    background-color: #FFF8F8;
+    font-family: montserrat;
+    font-size: 12px;
+    	
+}
+.encabezadotabla {
+    color: #F1813A;
+}
+.tabla {
+    border: 10px dotted #F1813A;
+    width: 90%;
+}
+.seccion2 {
+    background-color: #820333;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    box-sizing: content-box;
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    width: 701px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+}
+nav {
+    background-color: #000000;
+}

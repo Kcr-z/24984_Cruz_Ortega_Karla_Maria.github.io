@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+*{margin:0px;padding:0px}
+h1{
+	width: 100%;
+	background-color: #8F1214;
+	color:aliceblue;
+	padding:10px;
+	box-sizing: content-box;
+}
+body { 
+	background-color: chartreuse;
+}
+
+nav{
+	background-color: antiquewhite;
+	color:aqua;
+	
+}
+
+main{
+	background-color: bisque;
+	color:black;
+	padding:20px;
+}
+footer{
+	background-color: coral;
+	padding:20px;
+	box-sizing:border-box;
+	text-align: center;
+
+}
+nav  {
+    height: auto;
+	width: auto;
+    background-color: #52E3FA;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 10 px;
+    margin-right: 10 px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+.flex-container{
+	display: flex;
+	background-color: aquamarine;
+	color: black;
+	flex-direction: column;
+	margin: 10px;
+}
+
+.flex-container> div {
+	background-color: blueviolet;
+	color:aliceblue;
+	padding: 20px;
+	box-sizing: content-box;
+	margin:10px;
+	width: auto;
+}
+.picture{
+	width:100%;
+	height: auto;
+}
+
+
+@media (max-width:360px){
+	body {
+		background-color: blueviolet;
+		color:aliceblue;
+	}
+	nav,main,footer {
+		width: 80%;
+		padding: 30px;
+		box-sizing: content-box;
+	}
+	
+	.flex-conteiner {
+		flex-direction: column;
+	}
+	.flex-container> div {
+		width:80%;
+		
+	}
+	
+	.picture{
+		width:100%;
+	}
+}
+
+@media (max-width:640px) and (orientation:landscape){
+	body {
+		background-color: blue;
+		color:aliceblue;
+	}
+	nav,main,footer {
+		width: 80%;
+		padding: 30px;
+		box-sizing: content-box;
+	}
+	
+	.picture{
+		width:50%;
+
+	}
+}
+
+@media (min-width : 642px ){
+	body {
+		color: #A92023;
+		background-color: #9E6768;
+	}
+	nav,main,footer {
+		width: 80%;
+		padding: 30px;
+		box-sizing: content-box;
+	}
+	.picture{
+		width:25%;
+	}
+}
